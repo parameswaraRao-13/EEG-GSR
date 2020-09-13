@@ -1,0 +1,6 @@
+LSTM_1,Dropout_1,LSTM_2,Dropout_2,activation_2,LSTM_3,Dropout_3,activation_3,LSTM_4,Dropout_4,activation_4,LSTM_5,Dropout_5,activation_5,LSTM_6,Dropout_6,activation_6,lr,loss,accuracy,val_loss,val_accuracy
+512,0.3,256,0.3,relu,128,0.5,relu,128,0.3,relu,64,0.3,relu,32,0.2,relu,0.0001,0.0476,0.9174,0.056,0.9275
+512,0.5,256,0.5,tanh,512,0.1,relu,64,0.5,tanh,128,0.4,relu,32,0.4,tanh,0.001,0.0698,0.8972,0.0505,0.871
+256,0.4,256,0.1,tanh,64,0.3,tanh,64,0.5,tanh,64,0.5,relu,64,0.1,relu,0.001,0.0457,0.8475,0.0202,0.9165
+512,0.3,128,0.5,sigmoid,128,0.4,tanh,256,0.2,relu,128,0.2,relu,64,0.5,tanh,0.0001,0.0987,0.7912,0.0455,0.8874
+128,0.1,128,0.5,tanh,32,0.1,relu,32,0.1,sigmoid,128,0.1,sigmoid,64,0.2,relu,0.0001,0.0458,0.6547,0.0787,0.6556
